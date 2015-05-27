@@ -22,7 +22,7 @@ namespace Services.Helpers
                     {
                         var tsValue = message["ts"];
                         var dtTs = UnixTime.FromUnixTime(Convert.ToInt64(Regex.Replace(tsValue.ToString(), @"\.\d*", "")));
-                        message["ts"] = dtTs.ToString();
+                        message["ts"] = dtTs.ToString("o");
                     }
                 }
                 return new Base();
