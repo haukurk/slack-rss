@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackRSSProxy", "SlackRSSProxy\SlackRSSProxy.csproj", "{9423F7FB-9989-40BB-A3FD-F411ED37A52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackRSSProxy.Tests", "C:\Users\haukurk.SAMSKIP\Documents\Visual Studio 2013\Projects\SlackRSSProxy\SlackRSSProxy.Tests\SlackRSSProxy.Tests.csproj", "{B9A5CF28-9AA0-440F-9B1B-0D10569BCF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{B2DC372E-260B-4F70-A772-A8C0AAE9EF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{6D0585B9-FB11-493E-B4CF-461487CCC60A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9423F7FB-9989-40BB-A3FD-F411ED37A52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9423F7FB-9989-40BB-A3FD-F411ED37A52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9423F7FB-9989-40BB-A3FD-F411ED37A52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9423F7FB-9989-40BB-A3FD-F411ED37A52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A5CF28-9AA0-440F-9B1B-0D10569BCF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A5CF28-9AA0-440F-9B1B-0D10569BCF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A5CF28-9AA0-440F-9B1B-0D10569BCF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A5CF28-9AA0-440F-9B1B-0D10569BCF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DC372E-260B-4F70-A772-A8C0AAE9EF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DC372E-260B-4F70-A772-A8C0AAE9EF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DC372E-260B-4F70-A772-A8C0AAE9EF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DC372E-260B-4F70-A772-A8C0AAE9EF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0585B9-FB11-493E-B4CF-461487CCC60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0585B9-FB11-493E-B4CF-461487CCC60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0585B9-FB11-493E-B4CF-461487CCC60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0585B9-FB11-493E-B4CF-461487CCC60A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
