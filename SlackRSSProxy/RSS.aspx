@@ -1,7 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RSS.aspx.cs" Inherits="SlackRSSProxy.RSS" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RSS.aspx.cs" Inherits="SlackRSSProxy.RSS" ResponseEncoding="UTF-8" %>
 
 <asp:Repeater ID="RepeaterRSS" runat="server">
         <HeaderTemplate>
+           <?xml version="1.0" encoding="utf-8"?>
            <rss version="2.0">
                 <channel>
                     <title>RSS Proxy Feed</title>

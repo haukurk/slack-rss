@@ -22,3 +22,8 @@ Configuration parameters are included in ```Web.config``` like such:
 ``` 
 
 The ```slacktoken``` keeps the authentication token provided by Slack.com.
+
+# SlackRSSProxy Usage
+
+The project has one file ```RSS.aspx``` which depicts how to use the services provided.
+Note the QueryString ```channel_id```, thus `http://server/RSS.aspx?channel_id=UUIDForChannel` is the correct request format. 
