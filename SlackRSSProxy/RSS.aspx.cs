@@ -18,9 +18,6 @@ namespace SlackRSSProxy
 
             var channelID = Request.QueryString["channel_id"];
 
-            Response.Clear();
-            Response.ContentType = "application/rss+xml";
-
             var res = _slackService.GetMessagesForChannel(channelID);
 
             if (!res.ok)
